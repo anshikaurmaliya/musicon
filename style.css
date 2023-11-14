@@ -1,0 +1,320 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* padding: 10px; */
+    /* scroll-behavior: smooth; */
+}
+ .nav{
+    width: 100%;
+    background-color: rgb(75, 19, 75);
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+ }
+ .logo h5{
+    font-size: 6px;
+    margin-left: 13px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+ }
+ ul{
+    list-style: none;
+ }
+ a{
+    text-decoration: none;
+    color: white;
+    font-size: 5px;
+    /* margin-right: 10px; */
+ }
+ .nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    /* padding: 10px; */
+    margin-right: 10px;
+    align-items: center;
+ }
+ .nav ul li{
+    border-bottom: .5px solid transparent;
+    transition: 0.2s ease-in;
+ }
+ .nav ul li:hover{
+   border-bottom: .5px solid white;
+ }
+ .herosection{
+    
+    background-image: url(https://media.istockphoto.com/id/1149518467/photo/3d-render-blue-pink-neon-triangular-frame-triangle-shape-empty-space-ultraviolet-light-80s.jpg?s=612x612&w=0&k=20&c=NfpByQybeS4HMPrk9sTllkuocyn8MRxOMVale79DS9s=);
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    
+ }
+ .mini{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: white;
+ }
+ .mini h1{
+    font-size: 15px;
+ }
+ .mini h3{
+   font-size: 6px;
+   line-height: 14px;
+ }
+ .mini p{
+   font-size: 3px;
+   line-height: px;
+ }
+ .musicsection{
+   background-color: rgb(44, 9, 44);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: start;
+ }
+ .mini2{
+     display: flex; 
+     flex-direction: column; 
+     align-items: center;
+     justify-content: center;
+     margin-top: 10px;
+     color: white;
+ }
+ .mini2 h1{
+   font-size: 14px;
+
+ }
+ .mini2 h3{
+   font-size: 7px;
+   line-height: 13px;
+ }
+ .mini2 p{
+   font-size: 4px;
+ }
+ .mini2 i{
+   font-size: 16px;
+ }
+ .mini2 button{
+   height: 12px;
+   font-size: 5px;
+   background-color: red;
+   color: white;
+   border: 1px solid red;
+   border-radius: 3px;
+   /* line-height: 13px; */
+   margin: 5px 0;
+   padding: 0 4px;
+   border: none;
+   transition: 0.5s ease-in-out;
+   
+ }
+ button:hover{
+  /* opacity: 0.8; */
+  transition: 0.5s ease-in-out;
+  color:black;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  
+ }
+ .mini2 a{
+  /* margin-top: 10px; */
+  margin-bottom: 6px;
+ }
+ .mini2 img{
+   overflow: hidden;
+   height: 110px;
+   width: 160px;
+   background-position: center;
+   background-size: cover;
+   transition:0.5s ease-in-out ;
+ }
+ .aboutmusic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+ .mini3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 68px;
+  text-align: center;
+  padding: 10px;
+  /* margin-bottom: 8px; */
+  overflow: hidden;
+ }
+ .mini3 h2{
+  font-size: 5px;
+  margin-bottom: 5px;
+ }
+ .mini3 p{
+  font-size: 4px;
+ }
+ .mini3 button{
+  height: 9px;
+  font-size: 4px;
+  padding: 0px 2px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 7px;
+  margin-top: 4px;
+ }
+ .mini3 img{
+  height: 150px;
+  width: 300px;
+  transition: 0.5s ease-in-out;
+ }
+  .mini3 img:hover{
+  scale: 0.8;
+  transition: 0.5 ease-in-out;
+
+ }
+ .video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image:   url(https://24.media.tumblr.com/f04b4225b67aa66c4403ef1adef901a5/tumblr_mny10yIP0L1rmlbczo1_500.gif);
+  height: 100vh;
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+ }
+ .mini4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+ }
+ .video .mini4 h3{
+  font-size: 5px;
+  line-height: 14px;
+ }
+ .mini4 p{
+  font-size: 5px;
+ }
+ .mini5 img{
+  width: 70px;
+  height: 50px;
+ }
+ .gift{
+  display: flex;
+  height: 70vh;
+  /* background-color: brown; */
+  padding: 20px;
+ }
+ .mini5{
+  display: flex;
+  /* align-items: center; */
+  gap: 5px;
+  /* padding: 30px; */
+  border: .9px solid purple;
+  height: 40vh;
+ }
+ .det h4{
+  font-size: 6px;
+ }
+ .det p{
+  font-size: 4px;
+ }
+ .det h5{
+  font-size: 5px;
+  line-height: 10px;
+  opacity: .6;
+ }
+ .mini5 button{
+  height: 10px;
+  font-size: 6px;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 0px 3px;
+  border-radius: 7px;
+  
+ }
+ .mini5:hover{
+  border: .9px solid blue;
+ }
+ .footer{
+  display: flex;
+  flex-direction: column;
+  background-color: brown;
+  height: 40vh;
+ }
+ .footerupper{
+  display: flex;
+  align-items:center;
+  justify-content:center ;
+  background-color:rgb(87, 25, 87);
+  padding: 5px;
+ }
+ .mini6{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+  /* border: .9px solid silver; */
+ }
+ 
+ .links h4{
+  font-size: 5px;
+  color: white;
+  border-bottom: .11px solid white;
+  font-weight: 400;
+  opacity: .7;
+ }
+ ul li{
+  font-size: 4px;
+  color: white;
+  opacity: .7;
+ }
+ .Footerlower{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* padding: 20PX 4PX; */
+  height: 10vh;
+  background-color:rgb(43, 2, 43);
+ }
+ .Footerlower p{
+  font-size: 6px;
+  /* margin-left: 70PX; */
+  color: white;
+
+ }
+
+
+ 
+
+ 
